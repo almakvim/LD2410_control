@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <title>Терминал проверки датчиков LD2410</title> -->
+    <title>Terminal for checking sensors LD2410</title>
+    <link rel="stylesheet" href="./dist_tree/themes/default/style.min.css" />
+    <link rel="stylesheet" href="./dist_tree/themes/my_style_1.css" />
+    <link rel="stylesheet" href="./dist_tree/themes/my_style_2.css" />
+    <link rel="stylesheet" href="./dist_tree/themes/style_modal.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- <h1>Terminal for checking sensors LD2410</h1> -->
+      <table class="stlTableA">
+        <tr>
+          <th class="stlSel2">
+            <label class="oprosLabel" id="labelComPort">COM port: </label>
+            <select
+              class="stlCombo1"
+              id="selComPort"
+              onchange="selectComPort(this)"
+            ></select>
+            <label class="oprosLabel1" id="labelBoud">Boud rate:</label>
+            <select
+              class="stlCombo2"
+              id="selBoudRate"
+              onchange="selectBoudRate(this)"
+            >
+              <option value="9600">9600</option>
+              <option value="19200">19200</option>
+              <option value="38400">38400</option>
+              <option value="57600">57600</option>
+              <option value="115200">115200</option>
+              <option value="230400">230400</option>
+              <option value="256000">256000</option>
+              <option value="460800">460800</option>
+              <option value="921600">921600</option>
+            </select>
+            <a href="#" class="perLabel1" id="startRefresh"> Connect </a>
+          </th>
+        </tr>
+      <!-- ----------------------------------------------------------------- -->
+<tr>
+  <th  align="left" >
+    <a href="#" class="perLabel4" id="clickme">Connect Bluetooth device</a>
+    <!-- <a href="#" class="perLabel5" id="click_disconnect">Disconnect Bluetooth</a> -->
+  </th>
+  <tr>
+    <th align="left" width="100%" class="stlSel3">
+      <label class="perLabel2">Currently selected device:</label>
+      <label class="perLabel6" id="device-name"></label>
+    </th>
+</tr>
+      <!-- ----------------------------------------------------------------- -->
+      <table class="stlTableB">
+        <tr>
+          <th align="left" width="100%" class="stlSel3">
+            <label class="perLabel2">Received: </label>
+            <label class="warn_Label3" id="loadInfo4"></label>
+            <label class="perLabel">packets per second</label>
+          </th>
+        </tr>
+        <tr>
+          <th class="stlSel22">
+            <a href="#" class="perLabelE" id="enginMode"> Engineering mode (code: 0x0062) </a>
+          </th>
+        </tr>
+      </table>
+      <hr />
+      <!-- ----------------------------------------------------------------- -->
+      <table class="stlTableTTT" id="TableTTT">
+        <tr>
+          <th>Max motion gate: </th>
+          <th>
+            <input class="histWind3" type="text" id="paramMax1" onchange="paramMax1()" value="" />
+          </th>
+          <th>Max rest gate: </th>
+          <th>
+            <input class="histWind3" type="text" id="paramMax2" onchange="paramMax2()" value="" />
+          </th>
+          <th>Report delay (sec): </th>
+          <th>
+            <input class="histWind1" type="text" id="paramMax3" onchange="paramMax3()" value="" />
+          </th>
+        </tr>
+      </table>
+      <hr />
+      <!-- ----------------------------------------------------------------- -->
+      <table class="stlTableAA">
+        <tr>
+          <th class="stlSel1">
+            <table class="stlTableTT" id="TableTT">
+              <tr>
+                <th>Code</th>
+                <th>Command [double click]</th>
+              </tr>
+            </table>
+          </th>
+          <th class="stlSel2">
+            <table class="stlTableT" id="TableT">
+              <tr>
+                <th>Gate</th>
+                <th>Meter</th>
+                <th>Move</th>
+                <th>Rest</th>
+              </tr>
+            </table>
+          </th>
+        </tr>
+      </table>
+      <hr />
+      <!-- ----------------------------------------------------------------- -->
+      <hr />
+      <table class="stlTableRDT">
+        <tr>
+          <th class="stlTabRD2">
+            <table class="stlTableRD" id="TableRD"></table>
+          </th>
+          <th class="stlTabRD1">
+            <canvas id="myChart3" style="width: 250px; height: 145px"></canvas>
+          </th>
+        </tr>
+        </table>
+      <!-- ----------------------------------------------------------------- -->
+      <table class="stlTableSN">
+        <tr>
+          <th class="stlChart1">
+            <canvas id="myChart1" style="width: 250px; height: 200px"></canvas>
+          </th>
+          <th class="stlChart2">
+            <canvas id="myChart2" style="width: 250px; height: 200px"></canvas>
+          </th>
+        </tr>
+      </table>
+      <!-- ----------------------------------------------------------------- -->
+      <hr />
+      <!-- <table class="stlTableB">
+        <tr>
+          <th class="stlSel3">
+            <label class="warn_Label1" id="loadInfo1"></label>
+            <label class="warn_Label11" id="loadInfo11"></label>
+          </th>
+        </tr>
+      </table> -->
+        <!-- ----------------------------------------------------------------- -->
+      <!-- <div></div><button id="click_startConf">Enabling configuration commands</button></div>
+      <hr />
+      <div></div><button id="click_stopConf">End configuration commands</button></div>
+      <hr />
+      <div></div><button id="click_stopNotification">Stop notification</button></div> -->
+        <!-- ----------------------------------------------------------------- -->
+      <p class="titleStyle"> Terminal: </p>
+      <div class="contentStyle" contenteditable="false" id="myTextArea"></div>
+      <!-- ----------------------------------------------------------------- -->
+   
+      <script type="text/javascript" src="./dist_tree/renderer.js"></script>
+      <script type="text/javascript" src="./dist_tree/my_script_1.js"></script>
+    <script type="text/javascript" src="./dist_tree/my_script_2.js"></script>
+  </body>
+</html>
