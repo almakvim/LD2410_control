@@ -1,0 +1,13 @@
+#DeviceList {
+  font-weight: bold;
+  font-size: 14px;
+  color: #1400ca;
+  padding: -1px 0px 0px 0px;
+}
+li {
+  font-weight: bold;
+  font-size: 14px;
+  color: #1400ca;
+  margin: 0px 0px 0px 0px;
+  padding: 6px 0px 0px 0px;
+}

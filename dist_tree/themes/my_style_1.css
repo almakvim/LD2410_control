@@ -1,0 +1,289 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: #0f141e;
+  font: normal 11px sans-serif;
+  max-width: 540px;
+  min-width: 540px;
+  margin: 0px 10px;
+  padding: 0px 0px;
+}
+.container {
+  /* width: 75%; */
+  max-width: 540px;
+  margin: 0px 10px;
+  padding: 0px 0px;
+}
+h1 {
+  font-size: 14px;
+  max-width: 540px;
+  margin: 0px 10px;
+  padding: 0 0 4 0px;
+  color: #004fec;
+}
+hr {
+  margin: 0px 0px;
+  padding: 1px 0px;
+  background: #fffefe;
+}
+.title_style {
+  color: #1c1fcf;
+  text-align: center;
+}
+.stlSel1 {
+  border: 1px solid;
+  font-weight: normal;
+  font-size: 12px;
+  color: #bebebe;
+  text-align: left;
+  padding: 1px 0px 1px 0px;
+}
+.stlSel2 {
+  border: 1px solid;
+  background-color: #f5ffff;
+  font-weight: normal;
+  font-size: 12px;
+  color: #bebebe;
+  text-align: left;
+  padding: 4px 0px 4px 0px;
+}
+.stlSel22 {
+  border: 1px solid;
+  background-color: #f5ffff;
+  font-weight: normal;
+  font-size: 12px;
+  color: #696969;
+  text-align: left;
+  padding: 4px 0px 4px 0px;
+}
+.stlSel3 {
+  border: 1px solid;
+  font-weight: normal;
+  font-size: 12px;
+  color: #eaffff;
+  text-align: left;
+}
+
+.loadChartStyle {
+  font-size: 12px;
+  color: #008f00;
+  padding: 0px 0px 0px 4px;
+}
+.stlWin1 {
+  width: 40px;
+  height: 14px;
+  background: #fcffea;
+  text-align: right;
+}
+.stlWin11 {
+  width: 100px;
+  height: 14px;
+  background: #fcffea;
+  text-align: right;
+}
+.stlWin2 {
+  width: 80px;
+  height: 14px;
+  background: #fcffea;
+  text-align: right;
+}
+.stlWin3 {
+  width: 50px;
+  height: 14px;
+  background: #fcffea;
+}
+.edit-td {
+  padding: 0px 0px 0px 0px;
+}
+.edit-area {
+  width: 87px;
+  height: 20px;
+  font-size: 14px;
+  background: #eaffff;
+  padding: 0px 0px 0px 0px;
+}
+.edit-bool {
+  width: 50px;
+  height: 22px;
+  font-size: 12px;
+  background: #eaffff;
+  padding: 0px 0px 0px 0px;
+}
+.sensWind {
+  text-align: center;
+  font-weight: bold;
+  border: 0px solid;
+  color: #008f18;
+  width: 40px;
+  height: 13px;
+  background: #fcffea;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+.histWind1 {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  border: 0px solid;
+  width: 50px;
+  height: 13px;
+  background: #fcffea;
+  padding: 0px 0px 0px 4px;
+  margin: 0px 0px 0px 1px;
+}
+.histWind2 {
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid;
+  width: 22px;
+  height: 14px;
+  background: #fcffea;
+  padding: 0px 0px 1px 2px;
+  margin: 0px 0px 0px 8px;
+}
+.histWind3 {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+  border: 0px dashed;
+  width: 30px;
+  height: 13px;
+  background: #fcffea;
+  padding: 0px 0px 0px 4px;
+  margin: 0px 0px 0px 1px;
+}
+.histWind33 {
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  border: 0px dashed;
+  width: 30px;
+  height: 13px;
+  color: #000000;
+  background: #fcffea;
+  padding: 0px 0px 0px 1px;
+  margin: 0px 0px 0px 10px;
+}
+
+.perCommand1 {
+  font-weight: bold;
+  font-size: 12px;
+  padding-left: 0px;
+}
+.perCommand2 {
+  font-weight: bold;
+  font-size: 12px;
+  color: #008f13;
+  padding-left: 0px;
+}
+.perCommand3 {
+  font-weight: bold;
+  font-size: 12px;
+  color: #c7b3b3;
+  padding-left: 0px;
+}
+.perCommand4 {
+  font-weight: bold;
+  font-size: 12px;
+  color: #c7b3b3;
+  padding-left: 0px;
+}
+
+#tagLabel0 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 18px;
+  color: #000000;
+  padding: 0px 23px 0px 4px;
+}
+#tagLabel1 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #d60000;
+  padding-left: 4px;
+}
+#tagLabel2 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #ff5959;
+  padding-left: 4px;
+}
+#tagLabel3 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #008f18;
+  padding-left: 4px;
+}
+#tagLabel4 {
+  font-weight: bold;
+  font-size: 18px;
+  color: rgba(0, 160, 0, 0.4);
+  padding-left: 4px;
+}
+#tagLabel5 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #0400d6;
+  padding-left: 4px;
+}
+
+.customArea {
+  font-size: 11px;
+  color: #000000;
+  background: #fcffea;
+  padding: 1px 0px 1px 0px;
+}
+
+.titleStyle {
+  font-size: 12px;
+  color: #007377;
+  background: #ebece4;
+  margin: 6px 0px 0px 0px;
+  padding: 3px 0px 3px 15px;
+}
+.contentStyle {
+  width: 520px;
+  max-height: 150px;
+  overflow-y: auto;
+  font-size: 11px;
+  color: #000000;
+  background: #fcffea;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.inText_Num {
+  font-size: 11px;
+  font-weight: bold;
+  color: #0231ff;
+}
+.inText_Err {
+  font-size: 11px;
+  font-weight: bold;
+  color: #db0000;
+}
+.inText_Ok {
+  font-size: 11px;
+  font-weight: bold;
+  color: #008a07;
+}
+.inText_Suc {
+  font-size: 11px;
+  font-weight: bold;
+  color: #0073d1;
+}
+.inText_Word {
+  font-size: 11px;
+  font-weight: normal;
+  color: #0011ff;
+}
+.inText_Cancel {
+  font-size: 11px;
+  font-weight: bold;
+  color: #f88d00;
+}
+
+.warn_Label1111 {
+  color: #dd0000;
+}
