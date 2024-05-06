@@ -30,8 +30,6 @@
     "electron-json-storage": "^4.5.0",
     "electron-store": "^8.0.2",
     "jquery": "^3.6.0",
-    "jstree": "^3.3.12",
-    "jstreegrid": "^3.10.2",
     "noble": "^1.9.1",
     "save": "^2.4.0",
     "serialport": "^10.4.0",
